@@ -138,6 +138,7 @@ def login():
     return render_template("login.html", form = form, error = error)
 
 
+
 @app.route('/logout')
 def logout():
     logout_user()
